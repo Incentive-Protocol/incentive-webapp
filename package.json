@@ -10,6 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prepare": "husky install",
     "lint": "eslint --ext .js,.jsx --ignore-path ./.gitignore .",
     "format": "prettier --write \"**/*.{js,jsx,json,css,scss,md}\" --config ./.prettierrc --ignore-path ./.gitignore"
   },
