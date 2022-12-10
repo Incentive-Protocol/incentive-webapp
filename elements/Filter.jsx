@@ -1,14 +1,9 @@
 export default function Filter({ obj }) {
-
-    var filter;
-
-    return (
-        <>
-            <div className="Flex Center Filter"
-            // onClick={Activated()}
-            >
-                <p className="Mid">{obj}</p>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div className="Flex Center Filter">
+        <p className="Mid">{obj}</p>
+      </div>
+    </>
+  );
 }

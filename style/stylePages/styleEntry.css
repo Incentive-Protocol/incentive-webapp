@@ -1,65 +1,65 @@
 .Start {
-    /* padding-top: 9rem; */
-    padding-top: 11rem;
-    /* finita prima fase vai di flex */
-    gap: 4rem;
-    position: relative;
-    z-index: 5;
-    overflow-x: hidden;
+  /* padding-top: 9rem; */
+  padding-top: 11rem;
+  /* finita prima fase vai di flex */
+  gap: 4rem;
+  position: relative;
+  z-index: 5;
+  overflow-x: hidden;
 }
 
 .Action {
-    color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .Date {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 u {
-    text-decoration: none;
-    border-bottom: 0.05rem solid var(--blackLine);
+  text-decoration: none;
+  border-bottom: 0.05rem solid var(--blackLine);
 }
 
 .Underline {
-    border-bottom: 0.05rem solid var(--blackLine);
+  border-bottom: 0.05rem solid var(--blackLine);
 }
 
 /* Inputs */
 .Inputs {
-    gap: 1.2rem;
+  gap: 1.2rem;
 }
 
 .Input {
-    width: 20rem;
-    height: 4.5rem;
-    padding-left: 1.5rem;
-    border: 0.1rem solid var(--orange);
-    border-radius: 6rem;
-    outline: none;
-    caret-color: var(--orange);
-    background: var(--semiwhite);
+  width: 20rem;
+  height: 4.5rem;
+  padding-left: 1.5rem;
+  border: 0.1rem solid var(--orange);
+  border-radius: 6rem;
+  outline: none;
+  caret-color: var(--orange);
+  background: var(--semiwhite);
 }
 
 .Input::placeholder {
-    font-family: var(--font);
+  font-family: var(--font);
 }
 
 input:active,
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 .Blob {
-    /* position: fixed; */
-    position: absolute;
-    width: 30rem;
-    z-index: -1;
-    overflow: hidden;
+  /* position: fixed; */
+  position: absolute;
+  width: 30rem;
+  z-index: -1;
+  overflow: hidden;
 }
 
 .Up {
-    top: -24rem;
+  top: -24rem;
 }
 
 /* .Bottom {
@@ -68,61 +68,61 @@ input:focus {
 } */
 
 .Search {
-    /* width: 22rem; */
-    /* height: 9rem; */
-    /* height: 8rem; */
-    position: relative;
+  /* width: 22rem; */
+  /* height: 9rem; */
+  /* height: 8rem; */
+  position: relative;
 }
 
 .IconFood {
-    width: 1.6rem;
-    height: 1.6rem;
-    position: absolute;
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
 }
 
 .SearchBar {
-    width: 20rem;
-    height: 4.5rem;
-    padding: 0 1rem 0 1.5rem;
-    border: 0.1rem solid var(--orange);
-    border-radius: 6rem;
-    outline: none;
-    background: var(--semiwhite);
+  width: 20rem;
+  height: 4.5rem;
+  padding: 0 1rem 0 1.5rem;
+  border: 0.1rem solid var(--orange);
+  border-radius: 6rem;
+  outline: none;
+  background: var(--semiwhite);
 }
 
 .SearchInput {
-    width: 14.5rem;
-    height: 4rem;
-    background: none;
-    outline: none;
-    border: none;
-    caret-color: var(--orange);
+  width: 14.5rem;
+  height: 4rem;
+  background: none;
+  outline: none;
+  border: none;
+  caret-color: var(--orange);
 }
 
 .SearchInput::placeholder {
-    font-family: var(--font);
+  font-family: var(--font);
 }
 
 .IconMic {
-    width: 2rem;
-    height: 2rem;
-    margin-top: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.2rem;
 }
 
 .IconLogin {
-    padding: 0.5rem;
-    width: 3.2rem;
-    height: 3.2rem;
-    z-index: 2;
-    background: var(--orange);
-    border-radius: 50%;
+  padding: 0.5rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  z-index: 2;
+  background: var(--orange);
+  border-radius: 50%;
 }
 
 .IconRegister {
-    padding: 0.6rem 0.5rem 0.6rem 0.6rem;
-    width: 3.2rem;
-    height: 3.2rem;
-    z-index: 2;
-    background: var(--grey);
-    border-radius: 50%;
+  padding: 0.6rem 0.5rem 0.6rem 0.6rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  z-index: 2;
+  background: var(--grey);
+  border-radius: 50%;
 }
