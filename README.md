@@ -1,5 +1,12 @@
-# Web-App-Front-End-and-SC-interactions
-Filippo Leone
+# Incentive Web Application
+
+# Getting Started
+
+Run `npm install` to install the necessary dependencies. 
+
+Run `npm run dev` to start the local server.
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 # Structure
 
