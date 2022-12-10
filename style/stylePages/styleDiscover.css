@@ -1,0 +1,44 @@
+.Location {
+    padding: 0.8rem 2.5rem;
+    border-radius: 6rem;
+    /* border: 0.05rem solid var(--blackLine); */
+}
+
+.Filters {
+    height: 4rem;
+}
+
+@media screen and (width > 700px) {
+    .Filters::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.Container {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+.Filter {
+    height: 3rem;
+    background: var(--grey);
+    border-radius: 6rem;
+    padding: 0 1.5rem 0;
+}
+
+
+.Feed {
+    padding: 0.4rem 3rem 0 3rem;
+}
+
+.imgTry {
+    object-fit: cover;
+    border-radius: 1.5rem;
+    height: 35rem;
+    box-shadow: var(--shadow);
+    /* border: 0.1rem solid var(--orange); */
+}

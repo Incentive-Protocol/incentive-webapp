@@ -1,0 +1,57 @@
+.TabWindow {
+    padding: 1rem;
+    border-radius: 2rem;
+    /* background: var(--grey); */
+    overflow: hidden;
+    /* box-shadow: var(--shadowButton) */
+}
+
+.TabsNav {
+    padding-bottom: 1rem;
+}
+
+.tabs {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.TabsLi {
+    padding: 0.5rem 1rem 0.5rem;
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    position: relative;
+    background: var(--grey);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+
+    user-select: none;
+}
+
+.tabUnderline {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--blackLine);
+}
+
+li.selected {
+    background: var(--orange);
+}
+
+.FilterDivider {
+    width: 0.05rem;
+    height: 1.5rem;
+    background: var(--blackLine);
+    border-radius: 6rem;
+}

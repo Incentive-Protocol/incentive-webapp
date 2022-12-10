@@ -1,0 +1,21 @@
+{
+    "name": "incentive",
+    "description": "Incentive Protocol",
+    "private": true,
+    "author": "Incentive Organization",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@metamask/detect-provider": "^2.0.0",
+        "ethers": "^5.7.2",
+        "framer-motion": "^7.6.4",
+        "next": "13.0.0",
+        "nft.storage": "^7.0.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "uint8arrays": "^4.0.2"
+    }
+}

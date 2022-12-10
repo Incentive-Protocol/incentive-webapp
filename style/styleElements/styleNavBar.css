@@ -1,0 +1,33 @@
+.NavBar {
+    width: 20rem;
+    height: 6rem;
+    gap: 3.5rem;
+    border-radius: 6rem;
+    border: 0.05rem solid var(--blackLine);
+    position: relative;
+
+    background: var(--grey);
+    backdrop-filter: blur(2px);
+}
+
+.Icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 2;
+}
+
+.NavBall {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background: var(--orange);
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: var(--shadowButton);
+}
+
+.NavPos {
+    position: fixed;
+    /* box-shadow: 0 0 1px 1px green inset; */
+    bottom: 2rem;
+}

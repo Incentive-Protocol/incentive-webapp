@@ -1,0 +1,57 @@
+.ProfilePic {
+    height: 6rem;
+    padding: 1rem;
+    background: var(--grey);
+    border-radius: 6rem;
+    border: 0.1rem solid var(--orange);
+}
+
+/* 
+.Incentivo {
+    width: 14rem;
+    height: 16rem;
+    border-radius: 1.5rem;
+}
+
+.IncentivoFoot {
+    background: var(--grey);
+    backdrop-filter: blur(2px);
+} */
+
+.Incentivo {
+    width: 100%;
+    height: 16rem;
+    border-radius: 1.5rem;
+}
+
+.IncentivoFoot {
+    background: var(--grey);
+    backdrop-filter: blur(2px);
+}
+
+.Inc {
+    height: 8rem;
+    background: var(--grey);
+    border-radius: 1.5rem;
+}
+
+.IncNow {
+    border: 0.1rem solid var(--orange);
+}
+
+.IncImg {
+    width: 7rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.IconEdit {
+    background: var(--grey);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 0.1rem solid var(--orange);
+    /* box-shadow: var(--shadow); */
+}
