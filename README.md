@@ -2,7 +2,7 @@
 
 # Getting Started
 
-Run `npm install` to install the necessary dependencies. 
+Run `npm install` to install the necessary dependencies.
 
 Run `npm run dev` to start the local server.
 

@@ -1,9 +1,9 @@
 /* Button */
 .Button {
-    width: 10rem;
-    height: 4.5rem;
-    background: var(--orange);
-    border-radius: 6rem;
-    cursor: pointer;
-    box-shadow: var(--shadowButton);
+  width: 10rem;
+  height: 4.5rem;
+  background: var(--orange);
+  border-radius: 6rem;
+  cursor: pointer;
+  box-shadow: var(--shadowButton);
 }

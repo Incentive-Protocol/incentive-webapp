@@ -1,116 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* box-shadow: 0 0 1px 1px red inset; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-shadow: 0 0 1px 1px red inset; */
 }
 
 body,
 main {
-    background: var(--bg);
-    font-family: var(--font);
-    /* box-shadow: 0 0 1px 1px green inset; */
-    /* overflow: hidden; */
+  background: var(--bg);
+  font-family: var(--font);
+  /* box-shadow: 0 0 1px 1px green inset; */
+  /* overflow: hidden; */
 }
 
 .Full {
-    width: 100%;
-    /* overflow: hidden; */
+  width: 100%;
+  /* overflow: hidden; */
 }
 
 @media screen and (max-width: 700px) {
-    Html {
-        font-size: 12px;
-    }
+  Html {
+    font-size: 12px;
+  }
 }
 
 :root {
-    --bg: #eeeeee;
-    --Nav: #e6e6e6;
-    --semiwhite: #f1f1f1;
-    --font: 'Poppins', sans-serif;
+  --bg: #eeeeee;
+  --Nav: #e6e6e6;
+  --semiwhite: #f1f1f1;
+  --font: 'Poppins', sans-serif;
 
-    --orange: #FFBF00;
-    --grey: #e0e0e08e;
-    --blackLine: #0000002a;
+  --orange: #ffbf00;
+  --grey: #e0e0e08e;
+  --blackLine: #0000002a;
 
-    --shadowButton: 2px 2px 15px -5px rgba(0, 0, 0, 0.08);
-    --shadow: 2px 6px 17px -7px rgba(0, 0, 0, 0.04);
+  --shadowButton: 2px 2px 15px -5px rgba(0, 0, 0, 0.08);
+  --shadow: 2px 6px 17px -7px rgba(0, 0, 0, 0.04);
 }
 
 .Bold {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .Thin {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .Title {
-    font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 
 .SubTitle {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 .Big {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .Mid {
-    font-size: 1.2rem;
-    line-height: normal;
+  font-size: 1.2rem;
+  line-height: normal;
 }
 
 .Small {
-    font-size: 1rem;
-    line-height: normal;
+  font-size: 1rem;
+  line-height: normal;
 }
 
 .Flex {
-    display: flex;
+  display: flex;
 }
 
 .Column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .Center {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 img {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .Link {
-    appearance: none;
-    -webkit-appearance: none;
-    border: none;
-    background: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    text-decoration: none;
-    color: unset;
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-decoration: none;
+  color: unset;
 }
 
 button {
-    appearance: none;
-    -webkit-appearance: none;
-    border: none;
-    background: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    cursor: pointer;
-    color: unset;
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: unset;
 }
 
 input,
 textarea {
-    font-family: var(--font);
+  font-family: var(--font);
 }
